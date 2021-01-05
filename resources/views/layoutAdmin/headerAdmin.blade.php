@@ -5,7 +5,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>subur.in</title>
+    <title>Review.Movie</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('assetsAdmin/css/bootstrap.min.css' )}}" rel="stylesheet">

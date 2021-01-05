@@ -25,7 +25,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="product-categorie-box">
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
@@ -35,9 +35,9 @@
                                         <div class="products-single fix">
                                             <div class="box-img-hover">
                                                 <div class="type-lb">
-                                                    <p class="sale">Sale</p>
+                                                    <p class="sale">Soon</p>
                                                 </div>
-                                                <img src="{{asset('storage/'. $item->avatar)}}" class="img-fluid" alt="Image">
+                                                <img src= "{{asset('assets/images/The_Avengers_(2012_film)_poster.jpg')}}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                     <li><a href="{{url('/detail', $item->id)}}" data-toggle="tooltip" data-placement="right" title="Lihat Produk"><i class="fas fa-eye"></i></a></li>
@@ -45,23 +45,18 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                     </ul>
                                                     {{-- @dd($item) --}}
-                                                    @if ($item->stock != 0)
-                                                    <form action="{{url('add-to-cart', $item->id)}}" method="POST">
-                                                        @csrf
-                                                        <button type="submit" class="btn btn-success">Add to Cart</button>
-                                                    </form>
-                                                    @endif
-                                                   
+
+
                                                 </div>
                                             </div>
                                             <div class="why-text">
                                                 <h4>{{$item->product_name}}</h4>
-                                                <h5> Rp. {{number_format($item->price)}}</h5>
+                                                <h5>  {{number_format($item->price)}}</h5>
                                             </div>
                                         </div>
                                     </div>
                                     @endforeach
-                                    
+
 
                                 </div>
                             </div>
@@ -81,7 +76,7 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -113,7 +108,7 @@
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                             </ul>
-                                                            
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -145,7 +140,7 @@
                                                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                                 </ul>
-                                                                
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -194,7 +189,7 @@
                                             </div>
                                         </div>
                                         <div class="list-group-collapse sub-men">
-                                            <a class="list-group-item list-group-item-action" href="#sub-men2" data-toggle="collapse" aria-expanded="false" aria-controls="sub-men2">Vegetables 
+                                            <a class="list-group-item list-group-item-action" href="#sub-men2" data-toggle="collapse" aria-expanded="false" aria-controls="sub-men2">Vegetables
                                                 <small class="text-muted">(50)</small>
                                             </a>
                                             <div class="collapse" id="sub-men2" data-parent="#list-group-men">
@@ -228,7 +223,7 @@
                 </div>
             </div>
             <!-- End Shop Page -->
-            
+
             <!-- Start Instagram Feed  -->
             <div class="instagram-box">
                 <div class="main-instagram owl-carousel owl-theme">
@@ -315,19 +310,19 @@
                 </div>
             </div>
             <!-- End Instagram Feed  -->
-            
-            
-            
-            
+
+
+
+
             <!-- Start copyright  -->
             <div class="footer-copyright">
                 <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
                     <a href="https://html.design/">html design</a></p>
                 </div>
                 <!-- End copyright  -->
-                
+
                 <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
-                
+
                 <!-- ALL JS FILES -->
                 <script src="js/jquery-3.2.1.min.js"></script>
                 <script src="js/popper.min.js"></script>
@@ -347,10 +342,9 @@
                 <script src="js/contact-form-script.js"></script>
                 <script src="js/custom.js"></script>
             </body>
-            
+
             </html>
-            
-            
-            
+
+
+
             @endsection
-            

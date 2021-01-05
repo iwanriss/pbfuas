@@ -4,7 +4,7 @@
 	<title>Register</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="{{asset('assetsLogin/images/icons/favicon.ico')}}"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/vendor/bootstrap/css/bootstrap.min.css')}}">
@@ -12,13 +12,13 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/vendor/animate/animate.css')}}">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/vendor/css-hamburgers/hamburgers.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/vendor/animsition/css/animsition.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/vendor/select2/select2.min.css')}}">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/vendor/daterangepicker/daterangepicker.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('assetsLogin/css/util.css')}}">
@@ -26,16 +26,16 @@
 <!--===============================================================================================-->
 </head>
 <body>
-	
+
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form p-l-55 p-r-55 p-t-178" action = "{{route('register')}}" method = "POST">
 					<span class="login100-form-title">
-						subur.in
+						Review.Movie
 					</span>
 					@csrf
-					
+
 					@if ($errors->any())
 					<div class="alert alert-warning">
 						<ul>
@@ -55,7 +55,7 @@
                             </span>
                         @enderror
                     </div>
-                    
+
                     <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter nama anda">
 						<input class="input100" type="text" name="name" placeholder="nama">
 						<span class="focus-input100"></span>
@@ -75,7 +75,7 @@
 						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100"></span>
                     </div>
-                    
+
                     <div class="wrap-input100 validate-input m-b-16" data-validate = "Please enter password">
 						<input class="input100" type="password" name="password_confirmation" placeholder="Confirm Password">
 						<span class="focus-input100"></span>
@@ -100,8 +100,8 @@
 			</div>
 		</div>
 	</div>
-	
-	
+
+
 <!--===============================================================================================-->
 	<script src="{{asset('assetsLogin/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 <!--===============================================================================================-->
@@ -121,6 +121,3 @@
 
 </body>
 </html>
-
-
-

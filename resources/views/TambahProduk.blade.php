@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Data Produk</h1>
+                <h1 class="page-header">Data Film</h1>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -14,7 +14,7 @@
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Daftar Data Produk
+                        Daftar Film
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
@@ -37,11 +37,11 @@
                             <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                 <thead>
                                     <tr>
-                                        <th>Nama Produk</th>
+                                        <th>Nama Film</th>
                                         <th>Deskripsi</th>
-                                        <th>Harga</th>
+                                        <th>Tahun</th>
                                         <th>Stok</th>
-                                        <th>Foto Produk</th>
+                                        <th>Foto Film</th>
                                         <th>Opsi</th>
                                     </tr>
                                 </thead>
@@ -63,9 +63,9 @@
                                 </tbody>
                             </table>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tambah_data_produk">
-                                Tambah Data Penjualan
+                                Tambah Data Film
                             </button>
-                            
+
                         </div>
                     </div>
                 </div>

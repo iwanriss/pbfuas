@@ -7,6 +7,39 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+1. pastiin udah install xampp. kalo bisa yang terbaru biar phpnya yg terbaru juga
+2. install composer juga. cari di google bisa cara install composer, ga begitu ruwet kok
+3. download file zipnya di github
+4. extract file, terus extract lagi pokok sampe kebuka folder laravel
+5. folder laravel taruh di D biar gampang nnti ngaksesnya
+6. buka CMD
+7. terus akses filenya dari cmd (kan tadi foldenya ditaruh di D tinggal ketik di cmd:  cd /d d:\laravel))
+8. ketik copy .env.example .env
+9. terus buka file .env edit seperti dibawah :
+
+DB_DATABASE=suburin
+
+DB_USERNAME=root
+
+DB_PASSWORD=
+
+10. terus buka xampp hidupin apache sm mySQL
+11. klik admin di mySQL
+12. buat baru database, kasih nama "subur.in" tanpa tanda petik
+13. buka cmd lagi
+14. ketik composer install terus enter (tunggu lama)
+15. ketik php artisan key:generate terus enter
+16. ketik php artisan route:clear terus enter
+17. ketik php artisan config:clear terus enter
+18. ketik php artisan cache:clear terus enter
+19. ketik php artisan migrate terus enter
+20. ketik php artisan db:seed --class=RoleSeeder terus enter
+21. ketik php artisan db:seed --class=UserSeeder terus enter
+22. ketik php artisan serve terus enter
+23. buka chrome (bebas pake firefox, explorer juga bisa) terus buka http://127.0.0.1:8000/
+24. ----------------------------------------------------------------------------------------------------
+25. untuk akses admin: ungkiaprill@gmail.com pass: rahasia bulan
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

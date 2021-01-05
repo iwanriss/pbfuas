@@ -1,7 +1,7 @@
             <!-- Navigation -->
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
-                <a class="navbar-brand" href="{{url('/indexAdmin')}}">subur.in</a>
+                <a class="navbar-brand" href="{{url('/indexAdmin')}}">Review</a>
                 </div>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -51,21 +51,16 @@
                             <li>
                                 <a href="{{url('/indexAdmin')}}" class="active"><i class="fa fa-dashboard fa-fw"></i> User Profile</a>
                             </li>
-                            
+
                             <li>
                                 <a href="{{url('/dataCustomer')}}"><i class="fa fa-table fa-fw"></i> Data Customer</a>
                             </li>
+
                             <li>
-                                <a href="{{url('/dataMitra')}}"><i class="fa fa-table fa-fw"></i> Data Mitra</a>
-                            </li>
-                            <li>
-                                <a href="{{url('/TambahProduk')}}"><i class="fa fa-sitemap fa-fw"></i> Penjualan<span class="fa arrow"></span></a>
+                                <a href="{{url('/TambahProduk')}}"><i class="fa fa-sitemap fa-fw"></i> Data Film<span class="fa arrow"></span></a>
                                 <!-- /.nav-second-level -->
                             </li>
-                            <li>
-                            <a href="{{url('/pembelian')}}"><i class="fa fa-sitemap fa-fw"></i> Pembelian<span class="fa arrow"></span></a>
-                                <!-- /.nav-second-level -->
-                            </li>
+
                             <li>
                                 <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
                             </li>

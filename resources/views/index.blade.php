@@ -5,37 +5,34 @@
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="{{asset('assets/images/banner-01.jpg')}}" alt="">
+                <img src="{{asset('assets/images/movies-to-watch-1585258004.jpg')}}" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Subur.in</strong></h1>
-                            <p class="m-b-40"> Web Khusus Edukasi Hidroponik here!</p>
-                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                            <h1 class="m-b-20"><strong>Situs Review Film <br> Review.Movie</strong></h1>
+
                         </div>
                     </div>
                 </div>
             </li>
             <li class="text-center">
-                <img src="{{asset('assets/images/banner-02.jpg')}}" alt="">
+                <img src="{{asset('assets/images/netflix_best_movies_may_2020_1589355119754.jpg')}}" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Subur.in</strong></h1>
-                            <p class="m-b-40">Web Khusus Edukasi Hidroponik here!</p>
-                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                          <h1 class="m-b-20"><strong>Situs Review Film <br> Review.Movie</strong></h1>
+
                         </div>
                     </div>
                 </div>
             </li>
             <li class="text-center">
-                <img src="{{asset('assets/images/banner-03.jpg')}}" alt="">
+                <img src="{{asset('assets/images/RT_300EssentialMovies_700X250.jpg')}}" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Subur.in</strong></h1>
-                            <p class="m-b-40">Web Khusus Edukasi Hidroponik here!</p>
-                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                          <h1 class="m-b-20"><strong>Situs Review Film <br> Review.Movie</strong></h1>
+                          
                         </div>
                     </div>
                 </div>
@@ -51,20 +48,7 @@
 
 
     <!-- Start About-us  -->
-    <div class="about-box-main">
-        <div class="container">
-            <div class="row">
-				<div class="col-lg-6">
-                <div class="banner-frame"> <<img src="{{asset('assets/images/awk-img.jpg')}}" alt="" width="400">>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="noo-sh-title-top">Tentang<span> Saya</span></h2>
-                    <p>SAYA ADALAH SEORANG PENGUSAHA YANG TAK KENAL MENYERAH DAN SELALU GIGIH DALAM MELAKUKAN SESUATU</p>
-                    <p>APABILA BERMINAT UNTUK BERTANYA TENTANG SAYA NOMER SAYA 089650463225</p>
-                </div>
-            </div>
-        </div>
+
 
     <!-- End About-us  -->
 
